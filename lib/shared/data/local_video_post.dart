@@ -1,4 +1,4 @@
-List<Map<String, dynamic>> VideoPost = [
+List<Map<String, dynamic>> videoPosts = [
   {
     'name': 'Subiendo escaleras automáticas',
     'videoUrl': 'assets/videos/1.mp4',
@@ -25,13 +25,13 @@ List<Map<String, dynamic>> VideoPost = [
   },
   {
     'name': 'Esta enfermedad no me afecta a mi',
-    'videoUrl': 'asssets/videos/5.mp4',
+    'videoUrl': 'assets/videos/5.mp4',
     'likes': '33943',
     'views': '3235342',
   },
   {
     'name': 'No quiero ir a trabajar hoy Mr. White',
-    'videoUrl': 'assses/videos/6.mp4',
+    'videoUrl': 'assets/videos/6.mp4',
     'likes': '2323243',
     'views': '5565654',
   },
@@ -43,7 +43,7 @@ List<Map<String, dynamic>> VideoPost = [
   },
   {
     'name': '¿Ya llegamos a la India? mmm Sí',
-    'videoUrl': 'asssets/videos/8.mp4',
+    'videoUrl': 'assets/videos/8.mp4',
     'likes': '8987',
     'views': '82384',
   },
