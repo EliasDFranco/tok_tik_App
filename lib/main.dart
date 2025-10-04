@@ -14,7 +14,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MultiProvider(
       providers: [
-        ChangeNotifierProvider(create: (_) => DiscoverProvider()),
+        ChangeNotifierProvider(
+            lazy: false,
+            create: (_) => DiscoverProvider()
+              ..loadingNextPage()), //..loadingNextPage utilizando una cascada
       ],
       child: MaterialApp(
           title: 'Tok Tik App ',
